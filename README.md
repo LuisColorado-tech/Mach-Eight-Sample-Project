@@ -22,7 +22,7 @@ Before you get started, ensure you have the following installed:
 2. Navigate to the project directory:
 
     ```shell
-    cd Mach-Eight-Sample-Project/suma_pairs
+    cd Mach-Eight-Sample-Project
 
 
 3. Create a virtual environment (optional but recommended):
