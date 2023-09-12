@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Pairs</title>
+</head>
+<body>
+    <h1>Find Pairs of Integers</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="input_numbers">Enter a comma-separated list of numbers:</label>
+        <input type="text" id="input_numbers" name="input_numbers" required><br>
+        <label for="target_sum">Enter the target sum:</label>
+        <input type="number" id="target_sum" name="target_sum" required><br>
+        <input type="submit" value="Find Pairs">
+    </form>
+    
+    {% if pairs %}
+        <h2>Pairs that sum to the target:</h2>
+        <ul>
+            {% for pair in pairs %}
+                <li>{{ pair.0 }}, {{ pair.1 }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No pairs found.</p>
+    {% endif %}
+</body>
+</html>

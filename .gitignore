@@ -1,0 +1,67 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.tmp
+*.bak
+*.swp
+*.cache
+
+# Environment variables
+.env
+
+# Dependency directories
+venv/
+env/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Distribution / packaging
+.Python
+*.pyc
+*.pyo
+__pycache__/
+MANIFEST
+dist/
+build/
+egg-info/
+bin/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+*.egg-info
+*.spec
+*.rst
+
+# Database
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+#
