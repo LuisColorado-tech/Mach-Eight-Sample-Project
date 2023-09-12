@@ -38,7 +38,7 @@ Before you get started, ensure you have the following installed:
     
     On macOS and Linux:
 
-        source venv/bin/activate
+    source venv/bin/activate
 
 5. Install project dependencies:
 
