@@ -42,7 +42,7 @@ Before you get started, ensure you have the following installed:
 
 5. Install project dependencies:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 6. Apply database migrations:
 
