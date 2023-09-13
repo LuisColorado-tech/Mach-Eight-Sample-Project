@@ -46,11 +46,11 @@ Before you get started, ensure you have the following installed:
 
 6. Apply database migrations:
 
-    python manage.py migrate
+        python manage.py migrate
 
 7. Run the development server:
 
-    python manage.py runserver
+        python manage.py runserver
 
 8. Open your web browser and visit http://localhost:8000/find_pairs/
 
