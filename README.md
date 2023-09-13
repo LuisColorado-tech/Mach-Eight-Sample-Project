@@ -85,14 +85,15 @@ The `measure_execution_time` function is responsible for measuring the execution
 
 This repository is useful for comparing the efficiency of different pair-searching approaches in Python and understanding how the performance of functions varies based on time complexity.
 (InteractiveConsole)
->>> numbers=[-48,32,15,-45,17,21,14,-28,-1,30,0,42,10,-23,39,-47,20,-2,-20,26,-6,27,50,-7,37,-4,-42,-44,-19,16,47,-8,-12,-50,-30,-38,25,-33,-21,-15,48,2,36,1,-25,7,38,-24,-17,-26,-37,33,-34,31,-3,-18,44,-22,4,-14,-11,6,9,-40,-29,-13,41,22,-9,19,35,11,-35,-46,-43,12,28,8,45,49,-5,43,-27,34,18,40,23,3,46,29,-31,-32,5,-10,-31]
->>> target = 20
->>> from suma_pairs.utils import *
->>> measure_execution_time(numbers, target)
-find_pairs: 0.000024 seconds
-find_pairs2: 0.000546 seconds
-find_pairs_with_set: 0.000121 seconds
-find_pairs_with_sort: 0.000035 seconds
+      numbers+[-48,32,15,-45,17,21,14,-28,-1,30,0,42,10,-23,39,-47,20,-2,-20,26,-6,27,50,-7,37,-4,-42,-44,-19,16,47,-8,-12,-50,-30,-38,25,-33,-21,-15,48,2,36,1,-25,7,38,-24,-17,-26,-37,33,-34,31,-3,-18,44,-22,4,-14,-11,6,9,-40,-29,-13,41,22,-9,19,35,11,-35,-46,-43,12,28,8,45,49,-5,43,-27,34,18,40,23,3,46,29,-31,-32,5,-10,-31]
+  
+      target = 20
+      from suma_pairs.utils import *
+      measure_execution_time(numbers, target)
+         find_pairs: 0.000024 seconds
+         find_pairs2: 0.000546 seconds
+         find_pairs_with_set: 0.000121 seconds
+         find_pairs_with_sort: 0.000035 seconds
 
 
 
