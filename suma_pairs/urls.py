@@ -20,5 +20,9 @@ from suma_pairs import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.home_view, name='home'),
     path('find_pairs/', views.find_pairs_view, name='find_pairs'),
+    path('find_pairs2/', views.find_pairs2_view, name='find_pairs2'),
+    path('find_pairs_with_set/', views.find_pairs_with_set_view, name='find_pairs_with_set_view'),
+    path('find_pairs_with_sort_view/', views.find_pairs_with_sort_view, name='find_pairs_with_sort_view'),
 ]
