@@ -100,8 +100,11 @@ measure_execution_time(numbers, target)
 
 
 find_pairs: 0.000024 seconds
+
 find_pairs2: 0.000546 seconds
+
 find_pairs_with_set: 0.000121 seconds
+
 find_pairs_with_sort: 0.000035 seconds
 
 
